@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>The Code Review</title>
+</head>
+
+<body class="flex">
+    <header class="center">
+        <h1>The Code Review</h1>
+    </header>
+    <main>
+        <div class="div1">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </div>
+        <p class="line center">=============================</p>
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="flex">
+                    <div class="flex-2">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Required" required>
+                    </div>
+                    <div class="flex-2">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" id="email-address" name="email-address" placeholder="Required" required>
+                    </div>
+                    <div class="flex-2">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </div>
+                    <div class="flex-2">
+                        <label for="street-address">Street Address</label>
+                        <input type="text" id="street-address" name="street-address">
+                    </div>
+                    <div class="flex-2">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="flex-2">
+                        <label for="state">State:</label>
+                        <select name="state" id="state">
+                            <option value="california">California</option>
+                            <option value="nevada">Nevada</option>
+                            <option value="arizona">Arizona</option>
+                            <option value="washington">Washington</option>
+                        </select>
+                    </div>
+                    <div class="flex-2">
+                        <label for="zip-code">Zip Code</label>
+                        <input type="text" id="zip-code" name="zip-code">
+                    </div>
+                </div>
+            </fieldset>
+            <p class="center">==============================</p>
+            <fieldset>
+                <legend>Newsletter</legend>
+                <p>Select the newsletters you would like to receive</p>
+                <div>
+                    <input type="checkbox" id="html-news" name="newsletter" value="html_news" checked><label
+                        for="html-news">HTML News</label><br>
+                    <input type="checkbox" id="css-news" name="newsletter" value="css_news"><label for="css-news">CSS
+                        News</label><br>
+                    <input type="checkbox" id="js-news" name="newsletter" value="js_news"><label
+                        for="js-news">Javascript News</label>
+                </div>
+                <div>
+                    <p>Newsletter format</p>
+                    <input type="radio" id="html" name="format" checked><label for="html">HTML</label><br>
+                    <input type="radio" id="plain-text" name="format"><label for="plain-text">Plain text</label>
+                </div>
+                <div class="flex">
+                    <label for="other-topics">Other topics you'd like to hear about</label><br>
+                    <input type="text" id="other-topics" name="other-topics">
+                </div>
+            </fieldset>
+            <button type="submit">Sign Up</button>
+        </form>
+        <footer class="center">
+            <p>Copyright The Code Review</p>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
