@@ -3,7 +3,7 @@
 }
 
 :focus {
-    background: rgb(244, 243, 243);
+    background: rgb(245, 245, 184);
 }
 
 main, footer {
@@ -97,15 +97,32 @@ legend {
 
 
 @media only screen and (min-width: 768px) {
+    
+    main {
+        align-self: center;
+        width: 45%;
+        margin: 0px 20%;
+    }
+
     .flex-2 {
-        width: 500px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-top: 20px;
     }
 
     .flex-item {
-        width: 300px;    
+        width: 70%;    
+    }
+
+    #zip-code {
+        width: 30%;
+    }
+
+    .label-box {
+        width: 120px;
+        border: 0px solid green;
+        padding: 0px;
+        margin-right: 50px;
     }
 
     button[type='submit'] {
