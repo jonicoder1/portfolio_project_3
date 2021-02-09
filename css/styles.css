@@ -118,11 +118,19 @@ legend {
         width: 30%;
     }
 
+    #zip-code1 {
+        margin-right: 9px;
+    }
+
+    #state {
+        width: 76%;
+    }
+
     .label-box {
         width: 120px;
         border: 0px solid green;
         padding: 0px;
-        margin-right: 50px;
+        margin-right: 0px 50px 0px 20px;
     }
 
     button[type='submit'] {
